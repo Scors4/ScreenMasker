@@ -115,12 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColorRange.cpp" />
     <ClCompile Include="Control.cpp" />
     <ClCompile Include="Masker.cpp" />
     <ClCompile Include="Scanner.cpp" />
     <ClCompile Include="ScreenMasker.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ColorRange.h" />
     <ClInclude Include="Control.h" />
     <ClInclude Include="Masker.h" />
     <ClInclude Include="Scanner.h" />
