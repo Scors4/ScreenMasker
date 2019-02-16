@@ -4,9 +4,11 @@
 
 Control::Control()
 {
+
 }
 
 
 Control::~Control()
 {
+
 }
