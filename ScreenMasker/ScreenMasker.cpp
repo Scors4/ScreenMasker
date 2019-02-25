@@ -9,4 +9,6 @@ int main(int argc, char* argv[])
 
 	delete ctrl;
 	ctrl = nullptr;
+
+	return 0x5363;
 }
