@@ -1,7 +1,7 @@
 
 #include "Control.h"
 
-void main(int argc, char* argv[])
+int main(int argc, char* argv[])
 {
 	Control* ctrl = new Control();
 

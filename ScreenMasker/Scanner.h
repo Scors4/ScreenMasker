@@ -1,11 +1,16 @@
 #pragma once
 #include <Ole2.h>
+#include <vector>
 
-static class Scanner
+using namespace std;
+
+class Scanner
 {
 public:
 	
 	bool CaptureArea(int x, int y, int width, int height);
+	bool GetPixels(HBITMAP Bitmap, int width, int height);
 
+	vector<unsigned char> Pixels;
 };
 

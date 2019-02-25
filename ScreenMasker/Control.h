@@ -1,5 +1,8 @@
 #pragma once
 
+#include "Scanner.h"
+#include "Control.h"
+#include <vector>
 #include "ColorRange.h"
 
 class Control
