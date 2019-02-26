@@ -34,7 +34,8 @@ bool Scanner::GetPixels(HBITMAP Bitmap, int width, int height)
 
 	Info.bmiHeader.biSize = sizeof(BITMAPINFOHEADER);
 	Info.bmiHeader.biWidth = width = Bmp.bmWidth;
-	Info.bmiHeader.biHeight = height = Bmp.bmHeight;
+	Info.bmiHeader.biHeight = -Bmp.bmHeight;
+	height = Bmp.bmHeight;
 	Info.bmiHeader.biPlanes = 1;
 	Info.bmiHeader.biBitCount = Bmp.bmBitsPixel;
 	Info.bmiHeader.biCompression = BI_RGB;
